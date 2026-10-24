@@ -9,23 +9,14 @@ function Login() {
     <main className={styles.container}>
       <section className={styles.left}>
         <div className={styles.formContent}>
+          {/* Part 1: Title and subtitle */}
           <h1 className={styles.title}>Welcome back!</h1>
-
           <p className={styles.subtitle}>
             Enter your Credentials to access your account
           </p>
 
+          {/* Part 2: Login form */}
           <form className={styles.form}>
-            <div className={styles.field}>
-              <label htmlFor="name">Name</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Enter your name"
-              />
-            </div>
-
             <div className={styles.field}>
               <label htmlFor="email">Email address</label>
               <input
@@ -37,7 +28,13 @@ function Login() {
             </div>
 
             <div className={styles.field}>
-              <label htmlFor="password">Password</label>
+              <div className={styles.passwordLabel}>
+                <label htmlFor="password">Password</label>
+                <a href="#" className={styles.forgotPassword}>
+                  Forgot password
+                </a>
+              </div>
+
               <input
                 id="password"
                 name="password"
@@ -47,15 +44,16 @@ function Login() {
             </div>
 
             <label className={styles.checkbox}>
-              <input type="checkbox" name="agreeToTerms" />
-              <span>I agree to the terms &amp; policy</span>
+              <input type="checkbox" name="rememberMe" />
+              <span>Remember for 30 days</span>
             </label>
 
             <button className={styles.submitButton} type="submit">
-              Signup
+              Login
             </button>
           </form>
 
+          {/* Part 3: Keep unchanged for now */}
           <div className={styles.divider}>
             <span></span>
             <p>Or</p>
