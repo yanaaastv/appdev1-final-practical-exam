@@ -9,13 +9,11 @@ function Login() {
     <main className={styles.container}>
       <section className={styles.left}>
         <div className={styles.formContent}>
-          {/* Part 1: Title and subtitle */}
           <h1 className={styles.title}>Welcome back!</h1>
           <p className={styles.subtitle}>
             Enter your Credentials to access your account
           </p>
 
-          {/* Part 2: Login form */}
           <form className={styles.form}>
             <div className={styles.field}>
               <label htmlFor="email">Email address</label>
@@ -53,7 +51,7 @@ function Login() {
             </button>
           </form>
 
-          {/* Part 3: Keep unchanged for now */}
+          {/* Part 3: Bottom section */}
           <div className={styles.divider}>
             <span></span>
             <p>Or</p>
@@ -73,7 +71,7 @@ function Login() {
           </div>
 
           <p className={styles.bottomText}>
-            Have an account? <a href="#">Sign In</a>
+            Don’t have an account? <a href="#">Sign Up</a>
           </p>
         </div>
       </section>
