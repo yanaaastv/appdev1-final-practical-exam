@@ -1,14 +1,22 @@
-import styles from "./Signup.module.css";
 
+import styles from "./Signup.module.css";
 import blossom from "../../assets/blossom-flower.svg";
 
 function Signup() {
   return (
     <main className={styles.container}>
-      <section className={styles.left}></section>
+      <section className={styles.left}>
+        <div className={styles.formContent}>
+          <h1 className={styles.title}>Get Started Now</h1>
+        </div>
+      </section>
 
       <section className={styles.right}>
-        <img src={blossom} alt="Blossom flower" />
+        <img
+          className={styles.blossom}
+          src={blossom}
+          alt="Blossom flower"
+        />
       </section>
     </main>
   );
