@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 828px;
+  width: 100%;
+  min-height: 936px;
+}
+
+.left {
+  min-width: 0;
+}
+
+.right {
+  width: 828px;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.right img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
