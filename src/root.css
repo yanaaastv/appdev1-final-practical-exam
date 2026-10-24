@@ -1,0 +1,38 @@
+
+:root {
+  /* Colors */
+  --color-primary: #3a5b22;
+  --color-primary-hover: #2f491b;
+  --color-text: #000000;
+  --color-text-muted: #666666;
+  --color-placeholder: #808080;
+  --color-border: #d9d9d9;
+  --color-background: #ffffff;
+  --color-surface: rgba(255, 255, 255, 0.75);
+
+  /* Typography */
+  --font-family: "Poppins", sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 22px;
+  --font-size-lg: 24px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Spacing */
+  --spacing-xs: 6px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  --spacing-3xl: 40px;
+
+  /* Borders */
+  --radius-md: 8px;
+  --border-width: 1px;
+
+  /* Inputs */
+  --input-height: 44px;
+}
